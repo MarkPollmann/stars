@@ -9,10 +9,6 @@ client.on_connect('error', function(err) {
     console.log("ERROR: ", err)
 })
 
-client.on('ready', function(){
-    console.log('ready!');
-})
-
 app.set('port', process.env.PORT || 5000);
 
 app.use(responseTime())
