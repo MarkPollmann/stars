@@ -1,4 +1,6 @@
-Small project to learn redis. Calculates total stars of all repos of a GitHub user via the GitHub API. Responses are cached with Redis for a specified amout of time
+Small project to learn redis. Calculates total stars of all repos of a GitHub user via the GitHub API. Responses are cached with Redis for a specified amount of time (three minutes at the moment).
+
+Could use a nice frontend.
 
 # Usage
 
