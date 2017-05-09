@@ -13,7 +13,11 @@ app.set('port', process.env.PORT || 5000);
 
 app.use(responseTime())
 
-app.get('/api/:username', function(req, res) {
+app.get('/', (req, res) => {
+    res.send('Nothing to see here. Get the goods by visiting /username')
+})
+
+app.get('/:username', (req, res) => {
     const username = req.params.username;
     client.get(username, function(err, result){
         if(result){
