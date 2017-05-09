@@ -4,4 +4,4 @@ Could use a nice frontend.
 
 # Usage
 
-Run a redis server, then `$ npm start` and run queries on `localhost:5000/api/$(username)`
+Run a redis server, then `$ npm start` and run queries on `localhost:5000/$(username)`
